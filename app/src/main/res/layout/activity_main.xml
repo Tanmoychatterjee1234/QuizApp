@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#00008B">
+
+
+    <TextView
+        android:id="@+id/no_of_questions"
+        android:layout_width="381dp"
+        android:layout_height="500dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="620dp"
+        android:gravity="center"
+        android:text="@string/no_of_questions"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:background="@drawable/textviewlayout"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/question_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="117dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="446dp"
+        android:background="@drawable/textviewlayout"
+        android:gravity="center"
+        android:text="@string/question_tv"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="22sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="368dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="87dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/option_1"
+            android:layout_width="320dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/mybutton"
+            android:text="@string/option_1"
+            android:layout_marginBottom="5dp"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/option_2"
+            android:layout_width="320dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/mybutton"
+            android:text="@string/option_2"
+            android:layout_marginBottom="5dp"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/option_3"
+            android:layout_width="320dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/mybutton"
+            android:text="@string/option_3"
+            android:layout_marginBottom="5dp"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/option_4"
+            android:layout_width="320dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/mybutton"
+            android:text="@string/option_4"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/nextbtn"
+        android:layout_width="177dp"
+        android:layout_height="63dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="113dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="121dp"
+        android:layout_marginBottom="13dp"
+        android:gravity="center"
+        android:text="@string/next"
+        android:background="@drawable/mybutton"
+        android:textAlignment="center"
+        tools:ignore="HardcodedText"
+        android:textSize="19sp" />
+
+
+</RelativeLayout>
